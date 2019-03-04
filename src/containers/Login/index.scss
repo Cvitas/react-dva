@@ -1,0 +1,23 @@
+.login {
+  color: red;
+  background: url("@/imgs/shouke_index_bg.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  .login_wrap{
+    position: absolute;
+    right: 14%;
+    top:10%;
+    width: 288px;
+    .login_header{
+      line-height: 64px;
+      text-align: center;
+      font-size: 46px;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-family: 微软雅黑;
+      margin-bottom: 20px;
+    }
+  }
+}
